@@ -10,6 +10,7 @@
 #define IData_h
 
 class IData {
+    int _line_cnt;
 public:
     
 };
