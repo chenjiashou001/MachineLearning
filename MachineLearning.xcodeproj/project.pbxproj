@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7155CB581E73E71700D94FB4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7155CB571E73E71700D94FB4 /* main.cpp */; };
+		7155CB601E73E74100D94FB4 /* NavieByes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7155CB5E1E73E74100D94FB4 /* NavieByes.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		7155CB541E73E71700D94FB4 /* MachineLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MachineLearning; sourceTree = BUILT_PRODUCTS_DIR; };
 		7155CB571E73E71700D94FB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7155CB5E1E73E74100D94FB4 /* NavieByes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NavieByes.cpp; sourceTree = "<group>"; };
+		7155CB611E754B3F00D94FB4 /* NavieByes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavieByes.h; sourceTree = "<group>"; };
+		7155CB641E754E0000D94FB4 /* IData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				7155CB571E73E71700D94FB4 /* main.cpp */,
+				7155CB5E1E73E74100D94FB4 /* NavieByes.cpp */,
+				7155CB611E754B3F00D94FB4 /* NavieByes.h */,
+				7155CB641E754E0000D94FB4 /* IData.h */,
 			);
 			path = MachineLearning;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7155CB601E73E74100D94FB4 /* NavieByes.cpp in Sources */,
 				7155CB581E73E71700D94FB4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
